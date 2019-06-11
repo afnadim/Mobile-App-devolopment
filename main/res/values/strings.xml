@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Country Facts</string>
+    <string name="button">Sign In</string>
+    <string name="button2">Sign Up</string>
+    <string name="button3">Guest User</string>
+</resources>

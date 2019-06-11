@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.nadim.countryfacts.Sign_in_page">
+
+
+    <ImageView
+        android:id="@+id/imageView_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="33dp"
+        android:background="@android:color/holo_blue_dark"
+        app:srcCompat="@android:drawable/ic_dialog_info" />
+
+    <EditText
+        android:id="@+id/editText_password_signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:text="Password"
+        android:inputType="textPassword" />
+
+
+    <EditText
+        android:id="@+id/editText_name_signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText_password_signin"
+        android:layout_alignEnd="@+id/editText_password_signin"
+        android:background="@android:color/background_light"
+        android:layout_marginBottom="37dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Username" />
+
+    <Button
+        android:id="@+id/button_signIn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText_password_signin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Submit" />
+
+</RelativeLayout>
